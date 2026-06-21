@@ -1,0 +1,231 @@
+{
+  "ver": 3,
+  "settings": {
+    "company": "أوتار موود",
+    "address": "",
+    "cr": "",
+    "vat": "",
+    "currency": "ر.س"
+  },
+  "accounts": [
+    {
+      "code": "11",
+      "name": "نتنتاتا",
+      "type": "asset",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "1100",
+      "name": "النقد والصندوق",
+      "type": "asset",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "1101",
+      "name": "الصندوق الرئيسي",
+      "type": "asset",
+      "parent": "1100",
+      "opening": 0
+    },
+    {
+      "code": "1102",
+      "name": "البنك",
+      "type": "asset",
+      "parent": "1100",
+      "opening": 0
+    },
+    {
+      "code": "1110",
+      "name": "الذمم المدينة",
+      "type": "asset",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "1111",
+      "name": "العملاء",
+      "type": "asset",
+      "parent": "1110",
+      "opening": 0
+    },
+    {
+      "code": "1112",
+      "name": "أوراق القبض",
+      "type": "asset",
+      "parent": "1110",
+      "opening": 0
+    },
+    {
+      "code": "1120",
+      "name": "المخزون",
+      "type": "asset",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "1130",
+      "name": "مصروفات مدفوعة مقدماً",
+      "type": "asset",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "1200",
+      "name": "الأصول الثابتة",
+      "type": "asset",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "1201",
+      "name": "الأثاث والأجهزة",
+      "type": "asset",
+      "parent": "1200",
+      "opening": 0
+    },
+    {
+      "code": "1202",
+      "name": "السيارات",
+      "type": "asset",
+      "parent": "1200",
+      "opening": 0
+    },
+    {
+      "code": "1203",
+      "name": "مجمع الاستهلاك",
+      "type": "asset",
+      "parent": "1200",
+      "opening": 0
+    },
+    {
+      "code": "2100",
+      "name": "الذمم الدائنة",
+      "type": "liability",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "2101",
+      "name": "الموردون",
+      "type": "liability",
+      "parent": "2100",
+      "opening": 0
+    },
+    {
+      "code": "2102",
+      "name": "أوراق الدفع",
+      "type": "liability",
+      "parent": "2100",
+      "opening": 0
+    },
+    {
+      "code": "2200",
+      "name": "القروض",
+      "type": "liability",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "2300",
+      "name": "ضريبة القيمة المضافة",
+      "type": "liability",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "3100",
+      "name": "رأس المال",
+      "type": "equity",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "3200",
+      "name": "الاحتياطيات",
+      "type": "equity",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "3300",
+      "name": "الأرباح المحتجزة",
+      "type": "equity",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "4100",
+      "name": "المبيعات",
+      "type": "revenue",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "4200",
+      "name": "إيرادات الخدمات",
+      "type": "revenue",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "4300",
+      "name": "إيرادات أخرى",
+      "type": "revenue",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "5100",
+      "name": "تكلفة البضاعة المباعة",
+      "type": "expense",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "5200",
+      "name": "مصاريف الرواتب والأجور",
+      "type": "expense",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "5300",
+      "name": "مصاريف الإيجار",
+      "type": "expense",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "5400",
+      "name": "مصاريف الكهرباء والمياه",
+      "type": "expense",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "5500",
+      "name": "مصاريف الاستهلاك",
+      "type": "expense",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "5600",
+      "name": "مصاريف التسويق",
+      "type": "expense",
+      "parent": "",
+      "opening": 0
+    },
+    {
+      "code": "5700",
+      "name": "مصاريف عمومية وإدارية",
+      "type": "expense",
+      "parent": "",
+      "opening": 0
+    }
+  ],
+  "entries": [],
+  "nextNo": 1
+}
